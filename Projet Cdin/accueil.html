@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Accueil.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="icon" type="image/png" href="Image/Favicon/favicon-32x32.png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Eportfolio/Accueil</title>
+    </head>
+    <body>
+        <!--container principal-->
+        <div class="container">
+            <div class="row">
+                <!--Header-->
+                <div class="Header col-lg-12">
+                    <h1>Eportfolio</h1>
+                    <h2>Stefan Radovanovic</h2>
+                    
+                </div>
+                <!--Barre de navigation-->
+                <div class="Nav col-lg-12 sticky-top"> <!--Sticky top -> la navbar reste au haut de la page-->
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="#">Menu</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="Comp.html">Competences</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Exp.html">Expériences</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                  Loisirs
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="Loisir.html">Choisissez !</a>
+                                  <a class="dropdown-item" href="Montage.html">Montage Pc</a>
+                                  <a class="dropdown-item" href="Jeux.html">Jeux Vidéo</a>
+                                </div>
+                              </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                              </li>  
+                          </ul>
+                        </div>  
+                    </nav>
+                    <br>
+                </div>
+                <div class="Bvn col-lg-12">
+                    <h1>Bienvenue sur mon Eportfolio !</h1>
+                    <br>
+                    <p> Je m'appelle Stefan et je suis actuellement en 1er année à l'<em>Iut de Paris</em> en informatique.
+                        <br>
+                        C'est ici que vous trouverez tous ce qui a à savoir sur moi. <br> <strong>Bonne Visite !</strong>
+                        <em>(Appuyez sur les cercles)</em>
+                    </p>
+                </div>
+                <!--Toutes les sections de l'eportfolio-->
+                <div class="Comp col-lg-12">
+                    <h2>Compétences</h2>
+                    <a href="Comp.html" class="Cercle">
+                        <img src="https://media.giphy.com/media/QUXK4fFx8kYci4mcar/giphy.gif" alt="BlockChainGif" class="Gif" />
+                    </a>
+                </div>
+                <div class="Exp col-lg-12">
+                    <h2>Expériences</h2>
+                    <a href="Exp.html" class="Cercle">
+                    <img src="Image/Robot.gif" alt="ExpRobot" class="Gif"/>
+                    </a>
+                </div>
+                <div class="Loisir col-lg-12">
+                    <h2>Loisirs</h2>
+                    <a href="Loisir.html" class="Cercle">
+                        <img src="Image/Coffee.gif" alt="CoffeeLoisir" class="Gif" />
+                    </a>
+                    </div>
+
+                <div class="Contact col-lg-12">
+                    <h2>Contact</h2>
+                    <a href="Contact.html" class="Cercle">
+                        <img src="Image/Contact.gif" alt="GifContact" class="Gif" />
+                    </a>
+                </div>
+
+                <!--Footer-->
+
+                <div class="Footer col-md-6 ">
+                   
+                    <nav class="navbar navbar-light">
+                    
+                        <ul class="navbar-nav">
+                            <li class="navbar-brand">Réseaux Sociaux</li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Twitter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Github</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tiktok</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Instagram</a>
+                        </li>
+                        </ul>
+                    </nav>
+                    <br>
+                </div>
+                
+               
+                <div class="Copyright col-md-6">
+                    <div class="Carouseled">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            
+                            <ul class="carousel-indicators">
+                              <li data-target="#demo" data-slide-to="0" class="active"></li>
+                              <li data-target="#demo" data-slide-to="1"></li>
+                              <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                          
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="Image/resized/GlobeGif.gif" alt="BlobGif">
+                                <div class="carousel-caption">
+                                    <h3>Fait avec</h3>
+                                    <img src="Image/Logo/html-5.png" alt="html"/>
+                                    <img src="Image/Logo/css3.png" alt="css"/>
+                                    <img src="Image/Logo/bootstrap-4.png" alt="Bstrap"/>
+                              </div>
+                              
+
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Image/resized/BlockChain.gif" alt="BlockChain"/>
+                                <div class="carousel-caption">
+                                    <h3>Tout droit réservé</h3>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="Image/Papillon.gif" alt="PapillonLoisir"/>
+                                <div class="carousel-caption">
+                                    <h3>Enjoy !</h3>
+                                </div>
+                              </div>
+                            </div>
+                          
+                           
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </a>
+                          
+                        </div>  
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

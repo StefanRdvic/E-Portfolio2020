@@ -1,0 +1,131 @@
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+
+
+*{
+    font-family: 'Lato';
+
+}
+
+body
+{
+    background-image: url("https://media.giphy.com/media/eIafwZvpxk9sm3P6VH/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+.container
+{
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px grey;
+    background: rgb(240,239,233);
+    background: radial-gradient(circle, rgba(240,239,233,1) 0%, rgba(242,240,230,1) 100%);
+
+}
+
+/*NavBar*/
+
+Nav 
+{
+    border-radius: 5px;
+    background: rgb(210,240,226);
+    background: radial-gradient(circle, rgba(210,240,226,1) 0%, rgba(134,214,175,1) 100%);
+    box-shadow: 6px 6px 10px grey;
+    
+}
+
+.nav .navbar
+{
+    background-color: #c9ffe5;
+    box-shadow: 6px 6px 10px grey;
+}
+
+
+
+
+/*Header*/
+.Header h2
+{
+    text-align: center;
+    border: none;
+}
+
+/*Cercle de nav*/
+.Gif
+{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Cercle{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 6px 6px grey;
+}
+
+.Cercle:hover{
+    transform: scale(1.2,1.2) rotate(10deg);
+}
+
+/*FONT*/
+
+h1{
+    color: #D1BFFD;
+}
+
+h2{
+    color: #BFD1FD;
+    border-bottom: 2px solid #000000;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    color: #7575FF;
+}
+
+/*Caroussel*/
+.Carouseled
+{
+    
+    padding-bottom: 50px;
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 216px;
+}
+
+.carousel-inner{
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px grey;
+}
+
+.carousel-caption img
+{
+    width: 50px;
+    height: 50px;
+}

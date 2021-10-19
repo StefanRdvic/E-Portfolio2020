@@ -1,0 +1,228 @@
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+
+
+*{
+    font-family: 'Lato';
+
+}
+
+body
+{
+    background-image: url("Image/Robot.gif");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container
+{
+    border-radius: 5px;
+    background: rgb(245,215,113);
+    background: radial-gradient(circle, rgba(245,215,113,1) 0%, rgba(199,154,6,1) 100%);
+    box-shadow: 6px 6px 10px #000000;
+    
+}
+/*navbar*/
+.Nav .navbar
+{
+    border-radius: 5px;
+    background: rgb(108,61,154);
+    background: radial-gradient(circle, rgba(108,61,154,1) 0%, rgba(41,8,73,1) 100%);
+    box-shadow: 6px 6px 10px #000000;
+}
+/*header*/
+.Header h2
+{
+    text-align: center;
+}
+
+/*Fonts*/
+
+h1{
+    color: #290849;
+}
+
+h2{
+    color:#471b74;
+}
+
+h3{
+    color:#70419e;
+}
+
+p
+{
+    color: #1a1512;
+}
+
+/*PSJ1*/
+
+.Pjs1{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pjs1 h3
+{
+    border-bottom: 2px solid #6d6043;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BoxPjs1{
+    display: flex;
+}
+
+.BoxPjs1 p{
+    margin-right: 10px;
+    margin-left: 10px;
+  width: 50%;  
+}
+
+.Pjs1Link{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-bottom: 50px;
+    box-shadow: 6px 6px 10px #000000;
+}
+
+.Pjs1Link:hover{
+    transform: scale(1.2,1.2) rotate(10deg);
+}
+
+.Cercle
+{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-bottom: 50px;
+}
+
+/*Tpe*/
+.Tpe{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Tpe h3
+{
+    border-bottom: 2px solid #6d6043;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BoxTpe{
+    display: flex;
+}
+
+.BoxTpe p{
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 90%;  
+}
+
+.LinkVideo video{
+    border-radius: 5px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 6px 6px 10px #000000;
+}
+
+
+
+/*Footer*/
+
+.Footer ,.Copyright{
+    padding-top: 50px;
+}
+
+.Carouseled
+{
+    padding-bottom: 50px;   
+}
+
+.Carouseled .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 216px;
+}
+
+.Carouseled .carousel-inner{
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+
+.Carouseled .carousel-caption img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.Carouseled .carousel-inner{
+    border-radius: 5px;
+}
+
+.Carouseled .carousel-inner .carousel-caption h3{
+    color: #ffffff;
+}
+
+.navbar
+{
+    border-radius: 5px;
+    background: rgb(108,61,154);
+    background: radial-gradient(circle, rgba(108,61,154,1) 0%, rgba(41,8,73,1) 100%);
+    box-shadow: 6px 6px 10px #000000;
+}
+
+
+/*Media*/
+
+@media (max-width: 1024px) {
+    .BoxPjs1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BoxPjs1 p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxPjs1 .Pjs1Link{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxTpe{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .BoxTpe p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .LinkVideo video{
+        width: 50%;
+    }    
+}

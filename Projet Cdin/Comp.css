@@ -1,0 +1,405 @@
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+
+
+*{
+    font-family: 'Lato';
+
+}
+
+
+body
+{
+    background-image: url("https://media.giphy.com/media/QUXK4fFx8kYci4mcar/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*Header*/
+.container
+{
+    border-radius: 5px;
+    background: rgb(31,25,121);
+    background: radial-gradient(circle, rgba(31,25,121,1) 0%, rgba(3,0,38,1) 100%);
+    box-shadow: 6px 6px 10px #000000;
+    
+}
+
+.Nav .navbar
+{
+    border-radius: 5px;
+    background: rgb(74,83,122);
+    background: radial-gradient(circle, rgba(74,83,122,1) 0%, rgba(25,36,65,1) 79%);
+   
+    box-shadow: 6px 6px 10px #000000;
+}
+
+/*header*/
+.Header h2
+{
+    text-align: center;
+}
+
+.Bvn
+{
+    text-align: center;
+}
+
+
+/*Tableau*/
+
+
+.Tableau
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+td{
+    
+    border: 2px solid #fffdd0;
+}
+
+table
+{
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #010E14;
+    box-shadow: 6px 6px 10px#000000;
+    border-collapse: collapse;
+}
+
+tr{
+    color: #aec3b0;
+    text-align: center;
+}
+
+th
+{   
+    color:#01161e;
+    text-align: center;
+    border: 2px solid #fffdd0;
+    background-color: #fffdd0;
+}
+
+.Deb
+{
+    background-color: rgb(199, 97, 97);
+    width: 45%;
+}
+
+.Int
+{
+    background-color: sandybrown;
+    width: 45%;
+    color: rgb(218, 219, 221);
+}
+
+.Pro
+{
+    background-color: seagreen;
+    width: 45%;
+    color: rgb(209, 210, 212);
+}
+
+/*Langage info*/
+ 
+.Tableau
+{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Lang img{
+    width: 40px;
+}
+
+.Lang{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Lang h3
+{
+    border-bottom: 2px solid darkslategrey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BoxLang{
+    display: flex;
+}
+
+.BoxLang p{
+    margin-right: 10px;
+    margin-left: 10px;
+  width: 50%;  
+}
+
+.BoxLang table{
+    margin-right: 50px;
+    width: 40%;
+}
+
+.BoxLang table td{
+    width: 25%;
+}
+
+.BoxLang table .ProLin{
+    background: linear-gradient(90deg, sandybrown, seagreen) ;
+}
+
+.BoxLang table .IntLin{
+    background: linear-gradient(90deg, sandybrown, seagreen 70%) ;
+}
+
+.BoxLang table tfoot td{
+    color: lightslategray;
+}
+
+/*Exp Professionel*/
+
+.Life img{
+    width: 40px;
+}
+
+.Life{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Life h3
+{
+    border-bottom: 2px solid darkslategrey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BoxLife{
+    display: flex;
+}
+
+.BoxLife p{
+    margin-left: 10px;
+    margin-right: 10px;
+  width: 50%;  
+}
+
+.BoxLife table{
+    margin-left: 50px;
+    width: 40%;
+}
+
+.BoxLife table{
+    width: 25%;
+}
+
+
+.BoxLife table .ProLin{
+    background: linear-gradient(90deg, sandybrown, seagreen) ;
+}
+
+.BoxLife table .IntLin{
+    background: linear-gradient(90deg, sandybrown, seagreen 70%) ;
+}
+
+.BoxLife table tfoot td{
+    color: lightslategray;
+}
+
+/*Bureautique*/
+
+.Bureau img{
+    width: 40px;
+}
+
+.Bureau{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Bureau h3
+{
+    border-bottom: 2px solid darkslategrey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.BoxBureau{
+    display: flex;
+}
+
+.BoxBureau p{
+    margin-right: 10px;
+    margin-left: 10px;
+  width: 50%;  
+}
+
+.BoxBureau table{
+    margin-right: 50px;
+    width: 40%;
+}
+
+.BoxBureau table .ProLin{
+    background: linear-gradient(90deg, sandybrown, seagreen) ;
+}
+
+.BoxBureau table .IntLin{
+    background: linear-gradient(90deg, sandybrown, seagreen 70%) ;
+}
+/*Langue*/
+
+.Bonus{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Bonus h3
+{
+    border-bottom: 2px solid darkslategrey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.BoxBonus table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.BoxBonus table caption{
+    text-align: center;
+}
+
+/*Media*/
+@media (max-width: 764px) {
+
+    .BoxLang{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BoxLang p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxLang table{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxLife{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .BoxLife p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxLife table{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxBureau{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .BoxBureau p{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .BoxBureau table{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  }
+
+/*Font*/
+h1{
+    color: #b3d0db;
+}
+
+h2{
+    color: #bbcdd8;
+}
+
+h3{
+    color:rgb(181, 189, 202);
+}
+
+p
+{
+    color: #d1d4e0;
+}
+/*Footer*/
+.Footer ,.Copyright{
+    padding-top: 50px;
+}
+
+.Carouseled
+{
+    padding-bottom: 50px;   
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 216px;
+}
+
+.carousel-inner{
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+
+.carousel-caption img
+{
+    width: 50px;
+    height: 50px;
+}
+.carousel-inner .carousel-caption h3{
+    color: #ffffff;
+}
+
+.navbar
+{
+    border-radius: 5px;
+    background: rgb(74,83,122);
+    background: radial-gradient(circle, rgba(74,83,122,1) 0%, rgba(25,36,65,1) 79%);
+    box-shadow: 6px 6px 10px #000000;
+}

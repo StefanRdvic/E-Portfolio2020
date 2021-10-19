@@ -1,0 +1,185 @@
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+
+
+*{
+    font-family: 'Lato';
+
+}
+
+body
+{
+    background-image: url("Image/Contact.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container
+{
+  background: rgb(237,214,214);
+  background: radial-gradient(circle, rgba(237,214,214,1) 0%, rgba(241,197,197,1) 100%);
+  box-shadow: 6px 6px 10px #383838;
+    
+}
+/*NavBar*/
+.Nav .navbar
+{
+  background: rgb(173,218,218);
+  background: radial-gradient(circle, rgba(173,218,218,1) 0%, rgba(139,205,205,1) 100%);
+  box-shadow: 6px 6px 10px #303030;
+}
+
+.Header h2
+{
+    text-align: center;
+}
+
+h1{
+    color: #290849;
+}
+
+h2{
+    color:#471b74;
+}
+
+h3{
+    color:#70419e;
+}
+
+p
+{
+    color: #726060;
+}
+/*Formulaire*/
+.Formulaire{
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Forms{
+  clear:both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 550px;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px #303030;
+}
+
+.Forms .Titre h1{
+  color:rgb(173,218,218);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Contact{
+  display: flex;
+}
+
+.Champs{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.Champs,
+.Msg{
+  width: 48%;
+}
+
+.Champs .input,
+.Msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid rgb(173,218,218);
+  padding: 10px;
+  color:rgb(173,218,218);
+  width: 100%;
+}
+
+.Msg textarea{
+  height: 212px;
+}
+
+.btn p{
+  background: rgb(173,218,218);
+  background: radial-gradient(circle, rgba(173,218,218,1) 0%, rgba(139,205,205,1) 100%);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase; 
+    
+}
+
+.btn p:hover{
+  opacity: 70%;
+}
+
+
+
+@media screen and (max-width: 764px){
+  .Contact{
+    flex-direction: column;
+  }
+  .Msg textarea{
+    height: 80px;
+  }
+  .Champs,
+  .Msg{
+    width: 100%;
+  }
+}
+
+
+/*Footer*/
+
+
+.Footer ,.Copyright{
+  padding-top: 50px;
+}
+
+.Carouseled
+{
+  padding-bottom: 50px;   
+}
+
+.Carouseled .carousel-inner img {
+  width: 100%;
+  height: 100%;
+  max-height: 216px;
+}
+
+.Carouseled .carousel-inner{
+  box-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+
+.Carouseled .carousel-caption img
+{
+  width: 50px;
+  height: 50px;
+}
+
+.Carouseled .carousel-inner{
+  border-radius: 5px;
+}
+
+.Carouseled .carousel-inner .carousel-caption h3{
+  color: #ffffff;
+}
+/*reseau*/
+.navbar
+{
+
+  border-radius: 5px;
+  background: rgb(173,218,218);
+  background: radial-gradient(circle, rgba(173,218,218,1) 0%, rgba(139,205,205,1) 100%);
+  box-shadow: 6px 6px 10px #000000;
+}
